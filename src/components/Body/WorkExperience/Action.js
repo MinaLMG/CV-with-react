@@ -2,7 +2,7 @@ import React from "react";
 function Action(props) {
   return (
     <React.Fragment>
-      <div>{props.data}</div>
+      <li>{props.data}</li>
     </React.Fragment>
   );
 }

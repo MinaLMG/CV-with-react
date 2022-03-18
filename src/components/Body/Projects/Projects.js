@@ -1,19 +1,21 @@
 import React from "react";
 import Project from "./Project";
-import calsses1 from "../Style/Section.module.css";
+import classes1 from "../Style/Section.module.css";
 
 function Projects(props) {
   const projects = Object.keys(props.data);
   return (
-    <div className={props.className}>
-      <h2>projects</h2>
-      <ul>
-        {projects.map((project) => (
-          <React.Fragment key={project}>
-            <Project data={props.data[project]}></Project>
-          </React.Fragment>
-        ))}
-      </ul>
+    <div className={classes1.section}>
+      <h2 className={classes1["section-title"]}>projects</h2>
+      <div className={classes1["section-body"]}>
+        <ul>
+          {projects.map((project) => (
+            <React.Fragment key={project}>
+              <Project data={props.data[project]}></Project>
+            </React.Fragment>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }

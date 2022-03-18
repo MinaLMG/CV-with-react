@@ -1,2 +1,16 @@
-.section .title {
+.section {
+  width: 48%;
+  height: 30%;
+}
+.section-title {
+  font-weight: bold;
+  border-bottom: 5px solid black;
+  text-transform: uppercase;
+  padding-left: 10px;
+  margin-bottom: 1rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.section-body {
+  padding-left: 10%;
 }
