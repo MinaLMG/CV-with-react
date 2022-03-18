@@ -1,5 +1,5 @@
 import React from "react";
-import TitleDescription from "../../TitleDescription/TitleDescription";
+import TitleDescription from "../TitleDescription/TitleDescription";
 import classes1 from "../Style/Section.module.css";
 
 function Volunteering(props) {

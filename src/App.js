@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
 import Header from "./components/Header/Header";
-import personal from "./assets/me.jpg";
+import personal from "./assets/man.jpg";
 import Body from "./components/Body/Body";
 function App() {
   const HeaderData = {
@@ -14,7 +14,7 @@ function App() {
       mail: "moabuaboud@gmail.com",
       phone: +962799548851,
       accomodation: "Amman, Jordan",
-      linkedin: "inkedin.com/in/mohammad-abuaboud",
+      linkedin: "linkedin.com/in/mohammad-abuaboud",
       github: "github.com/hiasat",
     },
   };

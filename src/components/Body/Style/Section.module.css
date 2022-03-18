@@ -4,12 +4,13 @@
 }
 .section-title {
   font-weight: bold;
-  border-bottom: 5px solid black;
+  border-bottom: 3px solid #777;
   text-transform: uppercase;
   padding-left: 10px;
   margin-bottom: 1rem;
   margin-block-start: 0;
   margin-block-end: 0;
+  font-size: 1.3rem;
 }
 .section-body {
   padding-left: 4%;
