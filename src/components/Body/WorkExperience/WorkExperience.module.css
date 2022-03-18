@@ -8,7 +8,7 @@
   border-left: 3px solid black;
   position: absolute;
   height: calc(100% - 1rem);
-  left: calc(-27px + 0.4rem);
+  left: calc(-22px + 0.4rem);
   top: 1.2rem;
 }
 .experience {
@@ -18,7 +18,7 @@
 }
 .experience::before {
   content: "";
-  left: -27px;
+  left: -22px;
   top: 0.2rem;
   width: 0.8rem;
   height: 0.8rem;
@@ -66,21 +66,22 @@
 }
 .experience-action-span1 {
   position: absolute;
-  width: 7%;
-  height: 100%;
+  width: 3%;
+  top: 10%;
+  height: 90%;
   display: block;
   border-left: 1px solid;
   border-top: 1px solid;
   border-bottom: 1px solid;
-
   left: 0%;
   z-index: 1;
 }
 .experience-action-span2 {
   position: absolute;
-  width: 7%;
+  width: 3%;
+  top: 10%;
+  height: 90%;
   display: block;
-  height: 100%;
   right: 0;
   z-index: 1;
   border-right: 1px solid;
@@ -103,4 +104,5 @@
 }
 .experience-contact {
   /* font-size: 8px; */
+  width: auto;
 }
