@@ -54,6 +54,39 @@ function App() {
         contact: "Thomas Manning - thomasmanning@google.com",
       },
     },
+    projects: {
+      1: {
+        name: "LogicRush.com (2017 - 2020)",
+        tasks: {
+          1: "An initiative to expand and encourage math and problem-solving logic in the Arab community. The website has over 2000+ users.",
+          2: "Co-founder and full-stack developer working with a team of 4 people who creates, manages the website, and hosts contests",
+          3: "Technologies used: Java Spring, Angular, MySQL database.",
+        },
+      },
+      2: {
+        name: "Meemstr.com (2020)",
+        tasks: {
+          1: "Created a cross-platform mobile app and website for educational purposes.",
+          2: "The application includes an AI model that suggests funny content to users based on their behavior such as swipes and preferences using the collaborative filtering approach.",
+          3: "A full social experience is added for users through chat, followings, likes, comments, news-feed, and profile.",
+          4: "Technologies used: Java Spring, Flutter, Neo4j database, Cassandra database, Sockets, Firebase Notifications, Angular.",
+          5: "Documentation Link: https://drive.google.com/drive/folders/1ExAoDyGkhq6v48-hJDuLHzLuuuC-iYU?usp=sharing",
+        },
+      },
+      3: {
+        name: "MawhoubAcademy.com (Freelance Project) (2020)",
+        tasks: {
+          1: "Developed a complete online educational platform for students in Algeria.",
+          2: "Backend, Frontend development and CI / CD Pipeline",
+        },
+      },
+      4: {
+        name: "Liquid Automation (Open Source) (2013 - 2014)",
+        tasks: {
+          1: "Lead developer of LiquidBot for Runescape, a third-party software that utilizes reverse engineering of the game obfuscated code and automates user's input.",
+        },
+      },
+    },
   };
   return (
     <React.Fragment>
