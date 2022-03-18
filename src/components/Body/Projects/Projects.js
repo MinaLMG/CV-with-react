@@ -1,10 +1,11 @@
 import React from "react";
 import Project from "./Project";
+import calsses1 from "../Style/Section.module.css";
 
 function Projects(props) {
   const projects = Object.keys(props.data);
   return (
-    <React.Fragment>
+    <div className={props.className}>
       <h2>projects</h2>
       <ul>
         {projects.map((project) => (
@@ -13,7 +14,7 @@ function Projects(props) {
           </React.Fragment>
         ))}
       </ul>
-    </React.Fragment>
+    </div>
   );
 }
 export default Projects;

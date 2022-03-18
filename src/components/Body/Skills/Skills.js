@@ -1,9 +1,11 @@
 import React from "react";
 import Skill from "./skill";
+import calsses1 from "../Style/Section.module.css";
+
 function Skills(props) {
   const skills = Object.keys(props.data);
   return (
-    <div>
+    <div className={props.className}>
       <h2>skills</h2>
       <ul>
         {skills.map((skill) => (

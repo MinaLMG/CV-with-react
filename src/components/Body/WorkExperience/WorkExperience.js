@@ -3,7 +3,7 @@ import Action from "./Action";
 function WorkExperience(props) {
   const actions = Object.keys(props.data.actions);
   return (
-    <React.Fragment>
+    <div className={props.className}>
       <h2>{props.data.experience}</h2>
       <p>{props.data.company}</p>
       <p>{props.data.date}</p>
@@ -15,7 +15,7 @@ function WorkExperience(props) {
         </React.Fragment>
       ))}
       {props.data.contact && <p>{props.data.contact}</p>}
-    </React.Fragment>
+    </div>
   );
 }
 export default WorkExperience;
