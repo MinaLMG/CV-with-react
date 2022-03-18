@@ -1,5 +1,6 @@
 .experience-container {
   position: relative;
+  font-size: 0.7rem;
 }
 .experience-container::before {
   content: "";
@@ -11,7 +12,7 @@
   top: 1.2rem;
 }
 .experience {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-block-start: 0;
   margin-block-end: 0;
 }
@@ -99,4 +100,7 @@
 .experience-list li::before {
   content: "-";
   text-indent: -5px;
+}
+.experience-contact {
+  /* font-size: 8px; */
 }

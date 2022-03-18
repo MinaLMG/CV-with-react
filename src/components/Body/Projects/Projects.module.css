@@ -1,0 +1,16 @@
+.Projects-list {
+  list-style-type: none;
+  font-size: 0.7rem;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  margin-inline-end: 0;
+  margin-block-start: 0;
+  padding-inline-start: 0;
+}
+.Projects-list li {
+  text-indent: -5px;
+}
+.Projects-list li::before {
+  content: "-";
+  text-indent: -5px;
+}

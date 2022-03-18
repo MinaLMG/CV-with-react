@@ -23,7 +23,9 @@ function WorkExperience(props) {
           ))}
         </ul>
       </div>
-      {props.data.contact && <p>{props.data.contact}</p>}
+      {props.data.contact && (
+        <p className={classes["experience-contact"]}>{props.data.contact}</p>
+      )}
     </div>
   );
 }

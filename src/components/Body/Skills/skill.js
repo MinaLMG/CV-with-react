@@ -1,4 +1,6 @@
+import classes from "./Skill.module.css";
+
 function Skill(props) {
-  return <div>{props.data}</div>;
+  return <li className={classes.skill}>{props.data}</li>;
 }
 export default Skill;
