@@ -14,6 +14,7 @@ function WorkExperience(props) {
           <Action data={props.data.actions[action]}></Action>
         </React.Fragment>
       ))}
+      {props.data.contact && <p>{props.data.contact}</p>}
     </React.Fragment>
   );
 }

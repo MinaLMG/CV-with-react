@@ -7,7 +7,7 @@ import Body from "./components/Body/Body";
 function App() {
   const HeaderData = {
     photo: personal,
-    name: "Mena Lateaf",
+    name: "Mohammad AbuAboud",
     description:
       "Google Software Engineer, Former Amazon Software Engineer, First place at IEEEXtreme and ICPC Finalist",
     contacts: {
@@ -100,6 +100,65 @@ function App() {
       11: "flutter",
       12: "neo4j",
       13: "cassandra",
+    },
+    achievements: {
+      1: {
+        title: "Appreciation Award from King Abdullah II of Jordan",
+        description:
+          "Received an appreciation award from King Abdulla || of Jordan at Al Husainiyah Palace in 2019 for outstanding performance in international programming competitions",
+      },
+      2: {
+        title:
+          "First Place Worldwide at IEEEXtreme 14.0 Programming Competition 2020 (Team: Aurora)",
+        description:
+          "24-hour contest where teams compete to solve a set of programming problems. 4000+ teams participated. We have also ranked 4th in IEEExtreme 13.0 and IEEExtreme 12.0",
+      },
+      3: {
+        title:
+          "First place at Arab and Africa Collegiate Programming Contest 2019 (Team: Aurora)",
+      },
+      4: {
+        title:
+          "Arab and Africa Champion in International Collegiate Programming Competition (ICPC) held in China (Team: Aurora) (2018)",
+      },
+      5: {
+        title: "Google HashCode 2018 (Rank 87th Worldwide, 1st in Jordan)",
+      },
+      6: {
+        title:
+          "Participated in International Olympiad in Informatics (2015,2016) in Kazakhstan and Russia",
+      },
+      7: { title: "MetaCTF Jordan's Capture the Flag 2019 (Rank: 1st)" },
+    },
+    education: {
+      1: {
+        title:
+          "(BSc) Computer Science from Princess Sumaya University for technology (09/2016 - 08/2020)",
+        description:
+          "Earned full scholarship and graduated with GPA Excellent (86.6%)",
+      },
+    },
+    volunteering: {
+      1: {
+        title:
+          "Chief Judge and Problem setter of Jordan Olympiad in Informatics 2018",
+      },
+      2: {
+        title: "Founder of Jordan-CP (jordan-cp.com)",
+        description:
+          "Created a platform that provides educational material on various topics. The website has 20+ contributors and is widely used in Jordan as practice material for competitive programming.",
+      },
+      3: {
+        title:
+          "Coach of Jordan's Delegation for International Olympiad in Informatics (IOI)",
+        description:
+          "Responsible to coach top 15 students from the national Olympiad In 2019 to prepare them for the international Olympiad, two Jordanians achieved silver and bronze medals in IOI",
+      },
+      4: {
+        title: "Competitive programming trainer",
+        description:
+          "Taught problem solving and data structures in a training held at the University of Jordan. 100+ people attended the training and the videos are available at SolverTobe youtube channel.",
+      },
     },
   };
   return (
