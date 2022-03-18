@@ -87,6 +87,20 @@ function App() {
         },
       },
     },
+    skills: {
+      1: "c++",
+      2: "css",
+      3: "javascript",
+      4: "SQL",
+      5: "spring boot",
+      7: "python",
+      8: "java",
+      9: "Algorithms and data structures",
+      10: "Databases",
+      11: "flutter",
+      12: "neo4j",
+      13: "cassandra",
+    },
   };
   return (
     <React.Fragment>
